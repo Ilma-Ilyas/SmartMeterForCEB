@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# SmartMeterForCEB
+A smart metering prototype integrating real-time data forecasting, spatial intelligence, and machine learning to enhance decision-making, optimize energy usage, and evaluate system feasibility within the Sri Lankan energy context.
+>>>>>>> ba8740decb516e237079d340cb317caf0c96f54a
