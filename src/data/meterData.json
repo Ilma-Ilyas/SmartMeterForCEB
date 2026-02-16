@@ -1,0 +1,73 @@
+[
+    {
+      "id": "1",
+      "location": [37.7749, -122.4194],
+      "status": "active",
+      "usage": 10,
+      "region": "North"
+    },
+    {
+      "id": "2",
+      "location": [37.7849, -122.4294],
+      "status": "inactive",
+      "usage": 5,
+      "region": "South"
+    },
+    {
+      "id": "3",
+      "location": [37.7649, -122.4094],
+      "status": "active",
+      "usage": 8,
+      "region": "East"
+    },
+    {
+      "id": "4",
+      "location": [37.7949, -122.4394],
+      "status": "inactive",
+      "usage": 3,
+      "region": "West"
+    },
+    {
+      "id": "5",
+      "location": [37.7749, -122.4294],
+      "status": "active",
+      "usage": 12,
+      "region": "North"
+    },
+    {
+      "id": "6",
+      "location": [37.7849, -122.4194],
+      "status": "inactive",
+      "usage": 6,
+      "region": "South"
+    },
+    {
+      "id": "7",
+      "location": [37.7649, -122.4394],
+      "status": "active",
+      "usage": 9,
+      "region": "East"
+    },
+    {
+      "id": "8",
+      "location": [37.7949, -122.4094],
+      "status": "inactive",
+      "usage": 4,
+      "region": "West"
+    },
+    {
+      "id": "9",
+      "location": [37.7649, -122.4194],
+      "status": "active",
+      "usage": 11,
+      "region": "North"
+    },
+    {
+      "id": "10",
+      "location": [37.7949, -122.4294],
+      "status": "inactive",
+      "usage": 7,
+      "region": "South"
+    }
+  ]
+  

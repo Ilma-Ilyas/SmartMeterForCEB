@@ -1,0 +1,239 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(99, 139, 148);
+}
+
+
+.dashboard {
+  padding: 20px;
+  background-color: #6e8faf;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  height: 300px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.live-updates li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #e8f5e9;
+  border-radius: 5px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+  margin: 20px auto; /* Center the charts and add some margin */
+  padding: 20px; /* Optional: Add some padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better appearance */
+  background-color: rgb(67, 59, 87); /* Optional: Add background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Space between chart cards */
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart-paper {
+  padding: 20px;
+  height: 400px;
+}
+
+.chart-container {
+  height: 300px;
+}
+
+
+.health-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.health-item .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.live-updates li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #e8f5e9;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .chart-paper {
+    height: 300px;
+  }
+}
+
+.system-management {
+  padding: 20px;
+  background-color: #3f556a;
+  min-height: 100vh;
+}
+
+.section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.support {
+  padding: 20px;
+  background-color: #3f556a;
+  min-height: 100vh;
+}
+
+.section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-form .MuiButton-root {
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.dark-theme {
+  font: #688fa0;
+  background-color: #141414;
+  color: #fff;
+  padding: 16px;
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #fff;
+  }
+
+  .dashboard h1 {
+    color: #fff;
+  }
+
+  .dashboard h3 {
+    color: #ccc;
+  }
+
+  .dashboard p {
+    color: #bbb;
+  }
+}

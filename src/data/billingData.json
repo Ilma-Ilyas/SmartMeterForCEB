@@ -1,0 +1,35 @@
+[
+  {
+    "meterId": "SM001",
+    "currentBill": 125.50,
+    "dueDate": "2023-06-25",
+    "paymentStatus": "Pending",
+    "billingHistory": [
+      { "month": "May", "year": 2023, "amount": 110.75, "status": "Paid" },
+      { "month": "Apr", "year": 2023, "amount": 95.20, "status": "Paid" },
+      { "month": "Mar", "year": 2023, "amount": 105.60, "status": "Paid" }
+    ]
+  },
+  {
+    "meterId": "SM002",
+    "currentBill": 225.00,
+    "dueDate": "2023-06-30",
+    "paymentStatus": "Overdue",
+    "billingHistory": [
+      { "month": "May", "year": 2023, "amount": 200.50, "status": "Paid" },
+      { "month": "Apr", "year": 2023, "amount": 185.75, "status": "Paid" },
+      { "month": "Mar", "year": 2023, "amount": 190.25, "status": "Overdue" }
+    ]
+  },
+  {
+    "meterId": "SM003",
+    "currentBill": 85.30,
+    "dueDate": "2023-07-10",
+    "paymentStatus": "Paid",
+    "billingHistory": [
+      { "month": "May", "year": 2023, "amount": 80.00, "status": "Paid" },
+      { "month": "Apr", "year": 2023, "amount": 75.50, "status": "Paid" },
+      { "month": "Mar", "year": 2023, "amount": 82.25, "status": "Paid" }
+    ]
+  }
+]
